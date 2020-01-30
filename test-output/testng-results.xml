@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="108" started-at="2020-01-29T17:42:57 IST" finished-at="2020-01-29T17:42:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="108" started-at="2020-01-29T17:42:57 IST" finished-at="2020-01-29T17:42:57 IST">
+      <class name="seleniumsample.TestNGDemo">
+        <test-method status="PASS" signature="Wallet()[pri:0, instance:seleniumsample.TestNGDemo@7791a895]" name="Wallet" duration-ms="16" started-at="2020-01-29T17:42:57 IST" finished-at="2020-01-29T17:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wallet -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:seleniumsample.TestNGDemo@7791a895]" name="Login" duration-ms="0" started-at="2020-01-29T17:42:57 IST" finished-at="2020-01-29T17:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="orders()[pri:1, instance:seleniumsample.TestNGDemo@7791a895]" name="orders" duration-ms="0" started-at="2020-01-29T17:42:57 IST" depends-on-methods="seleniumsample.TestNGDemo.Wallet" finished-at="2020-01-29T17:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orders -->
+        <test-method status="PASS" signature="Logina()[pri:2, instance:seleniumsample.TestNGDemo@7791a895]" name="Logina" duration-ms="15" started-at="2020-01-29T17:42:57 IST" finished-at="2020-01-29T17:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logina -->
+      </class> <!-- seleniumsample.TestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
